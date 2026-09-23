@@ -22,9 +22,9 @@ studi professionali…) che funziona **sul tuo computer, senza internet e senza 
 
 Apri il file `.dmg`, trascina GestioFlex nella cartella Applicazioni. Al primo avvio: tasto destro sull'icona → **Apri** → Apri.
 
-## Versione dimostrativa e licenza
+## Prova gratuita di 30 giorni
 
-Il programma parte in versione dimostrativa: **tutte le funzioni sono disponibili**, i documenti PDF riportano la dicitura "versione dimostrativa". All'acquisto ricevi un codice licenza: incollalo in **Impostazioni → Licenza** e la dicitura sparisce. Non serve la connessione a internet.
+Per 30 giorni **tutte le funzioni sono disponibili** (i PDF riportano la dicitura "versione di prova"). Allo scadere il programma passa in sola lettura: i tuoi dati restano tutti lì, consultabili ed esportabili. All'acquisto ricevi un codice licenza: incollalo in **Impostazioni → Licenza** e riprendi da dove eri rimasto. Non serve la connessione a internet.
 
 ## I tuoi dati
 
