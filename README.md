@@ -1,5 +1,7 @@
 # GestioFlex — Scarica il programma
 
+**Guarda la presentazione (90 secondi):** https://carlot43.github.io/gestioflex-download/
+
 GestioFlex è un gestionale per piccole attività (negozi, parrucchieri, ristoranti, idraulici,
 studi professionali…) che funziona **sul tuo computer, senza internet e senza abbonamenti**.
 

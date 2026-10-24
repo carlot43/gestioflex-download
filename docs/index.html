@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GestioFlex in 90 secondi</title>
+<meta name="description" content="GestioFlex, il gestionale semplice che si adatta al tuo mestiere: guarda la presentazione di 90 secondi e scaricalo per Mac o Windows.">
+<meta property="og:title" content="GestioFlex in 90 secondi">
+<meta property="og:description" content="Il gestionale semplice che si adatta al tuo mestiere. Licenza una tantum, nessun canone, prova gratuita 30 giorni.">
+<meta property="og:image" content="https://carlot43.github.io/gestioflex-download/poster.jpg">
+<meta property="og:video" content="https://carlot43.github.io/gestioflex-download/GestioFlex-Presentazione.mp4">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg: #0b1324; --bg2: #101c38; --ink: #ffffff; --muted: #b9c6e8; --blue: #2563eb; --blue2: #60a5fa; --line: rgba(255,255,255,.1); }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; background: radial-gradient(1200px 700px at 85% -10%, rgba(37,99,235,.45), transparent 60%), linear-gradient(160deg, var(--bg), var(--bg2)); color: var(--ink); min-height: 100vh; line-height: 1.5; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 36px 20px 60px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 26px; }
+  header img { width: 46px; height: 46px; border-radius: 12px; }
+  header b { font-size: 22px; letter-spacing: -.3px; }
+  header small { display: block; color: var(--muted); font-size: 13px; font-weight: 400; }
+  h1 { font-size: clamp(30px, 5vw, 50px); line-height: 1.08; letter-spacing: -1.2px; margin: 0 0 10px; font-weight: 800; text-wrap: balance; }
+  .lead { color: var(--muted); font-size: 19px; margin: 0 0 26px; max-width: 60ch; }
+  .player { position: relative; border-radius: 18px; overflow: hidden; background: #000; box-shadow: 0 40px 100px rgba(0,0,0,.55), 0 0 0 1px var(--line); aspect-ratio: 16/9; }
+  .player video { width: 100%; height: 100%; display: block; }
+  .big { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(5,10,25,.25); cursor: pointer; border: 0; padding: 0; }
+  .big span { width: 96px; height: 96px; border-radius: 50%; background: var(--blue); display: grid; place-items: center; box-shadow: 0 20px 50px rgba(37,99,235,.6); transition: transform .15s; }
+  .big:hover span { transform: scale(1.06); }
+  .big svg { width: 38px; height: 38px; margin-left: 6px; fill: #fff; }
+  .big[hidden] { display: none; }
+  .points { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 30px 0; }
+  .pt { background: rgba(255,255,255,.05); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  .pt b { display: block; font-size: 17px; margin-bottom: 4px; }
+  .pt span { color: var(--muted); font-size: 15px; }
+  .cta { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .btn { background: var(--blue); color: #fff; text-decoration: none; font-weight: 700; padding: 14px 22px; border-radius: 12px; display: inline-flex; gap: 8px; align-items: center; }
+  .btn.ghost { background: rgba(255,255,255,.08); border: 1px solid var(--line); }
+  .btn:hover { filter: brightness(1.08); }
+  .note { color: var(--muted); font-size: 14px; margin-top: 18px; }
+  .contact { margin-top: 36px; padding-top: 22px; border-top: 1px solid var(--line); color: var(--muted); font-size: 15px; }
+  .contact b { color: var(--ink); }
+  @media (max-width: 760px) { .points { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><img src="icon.png" alt=""><div><b>GestioFlex</b><small>Il gestionale semplice che si adatta al tuo mestiere</small></div></header>
+  <h1>Clienti, vendite, fatture, magazzino e personale. In un programma solo, fatto per il tuo lavoro.</h1>
+  <p class="lead">Guarda come funziona in 90 secondi. Poi scaricalo e provalo gratis per 30 giorni.</p>
+
+  <div class="player">
+    <video id="v" controls playsinline preload="metadata" poster="poster.jpg">
+      <source src="GestioFlex-Presentazione.mp4" type="video/mp4">
+    </video>
+    <button class="big" id="play" aria-label="Guarda il video"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></button>
+  </div>
+
+  <div class="points">
+    <div class="pt"><b>Si configura da solo</b><span>Dici che attività hai e accende i moduli giusti: parrucchiere, idraulico, negozio, ristorante, B&amp;B.</span></div>
+    <div class="pt"><b>Licenza una tantum</b><span>Nessun canone mensile. I dati restano sul tuo computer, con backup automatici.</span></div>
+    <div class="pt"><b>Un assistente che capisce l'italiano</b><span>Scrive ai fornitori, registra spese, cerca clienti. Ma non parte nulla senza il tuo clic.</span></div>
+  </div>
+
+  <div class="cta">
+    <a class="btn" href="https://github.com/carlot43/gestioflex-download/releases/latest/download/GestioFlex.dmg">Scarica per Mac</a>
+    <a class="btn" href="https://github.com/carlot43/gestioflex-download/releases/latest/download/GestioFlex-Setup.exe">Scarica per Windows</a>
+    <a class="btn ghost" href="https://github.com/carlot43/gestioflex-download#readme">Istruzioni di installazione</a>
+  </div>
+  <p class="note">Prova gratuita di 30 giorni, senza carta di credito. Installazione in 5 minuti.</p>
+
+  <div class="contact">Vuoi una dimostrazione dal vivo di 15 minuti? Scrivi a <b>carlo88turri@gmail.com</b> oppure rispondi all'email che hai ricevuto.</div>
+</div>
+<script>
+  const v = document.getElementById('v'), p = document.getElementById('play');
+  p.addEventListener('click', () => { p.hidden = true; v.play(); });
+  v.addEventListener('play', () => { p.hidden = true; });
+  v.addEventListener('ended', () => { p.hidden = false; });
+</script>
+</body>
+</html>
